@@ -1,0 +1,255 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+.yii{ padding-left: 20px; padding-top: 150px; }
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.peoples{
+    width:100%;
+    bottom:0;
+    left:0;
+}
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/page1.png");
+   position:relative;
+}
+.desk{
+    width:6.55rem;
+    height:3.31rem;
+    right:0;
+    top:0.54rem;
+    font-size: 60px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+h5{}
+.zhi{
+    width:2.08rem;
+    height:2.22rem;
+    left:0.6rem;
+    top:4rem;
+}
+
+.shiqu{
+    width:7.5rem;
+    height:1rem;
+    right:0.4rem;
+    top:3.8rem;
+ text-align: center;
+ line-height: 1rem;
+}
+.qingchun{
+
+    width:7.5rem;
+    height:0.5rem;
+    right:0.4rem;
+    top:3.8rem;
+ text-align: center;
+ line-height: 0.5rem;
+}
+.yii{ padding-left: 150px
+}
+
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/7a619916fac7cdbf577dc0489053b1e4_true.jpg") center center no-repeat;
+    background-size:cover;
+}
+.book{
+    width:2.08rem;
+    height:1.48rem;
+    left:0.8rem;
+    top:1.3rem;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+
+
+.book1{
+    width:1.33rem;
+    height:1rem;
+    left:0.8rem;
+    bottom:0.7rem;
+}
+
+.book2{
+    width:1.75rem;
+    height:1.19rem;
+    left:50%;
+    margin-left:-0.875rem;
+    bottom:0.7rem;
+}
+.book3{
+    width:1.48rem;
+    height:0.85rem;
+    right:0.8rem;
+    bottom:0.7rem;
+}
+
+
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:3.5rem;
+    line-height:0.64rem;
+    color:darkorange;
+    margin-top: 100px;
+}
+
+}
+
+
+/* page3 */
+.swiper-slide{   background:url("../images/123457.jpg") center center no-repeat;
+    background-size:cover;
+}
+.page3{
+    position:relative;
+    background:url("../images/123457.jpg") center center no-repeat;
+    background-size:cover;
+
+    background-size:100% 100%;
+    
+}
+.page3>img{
+    position: absolute;
+}
+.jvshou{
+ width:5.72rem;
+ height:2.96rem;
+ top:0.5rem;
+ left:50%;
+ margin-left:-2.86rem;
+}
+.err{ font-size: 15px;
+      padding-left: 30px;
+      padding-top: 60px;
+    }
+    .ert{ font-size: 10px;
+        padding-left: 30px;
+        padding-top:15px;}
+        .eee{ font-size: 15px;
+    padding-left:30px;
+    padding-top:25px;}
+    .een{ font-size: 10px;
+        padding-left: 30px;
+        padding-top: 30px;}
+        .eex{ font-size: 10px;
+            padding-left: 30px;
+            padding-top: 45px;}
+            .eez{ font-size: 15px;
+                padding-left:30px;
+                padding-top:35px;}
+        .page3 .people{
+            width:100%;
+            left:0;
+            bottom:0;
+          }
+.blackBoard{
+   position: absolute;
+   width:5.56rem;
+   height:4.04rem;
+  
+   background-size:100% 100%;
+   top:80%;
+   left:50%;
+   margin-left:-2.78rem;
+   margin-top:-2.02rem;
+   padding:0.8rem;
+   padding-left:0.6rem;
+   box-sizing:border-box;
+ 
+}
+.erweima{
+   width:2.48rem;
+   height:2.5rem;
+   background:url("../images/作品集.png") center center no-repeat;
+   background-size:cover;
+   float:left;
+}
+.tips{
+   float:left;
+   margin-left:0.2rem;
+}
+.tips p{
+   font-size:0.36rem;
+   color:#fff;
+   
+   line-height:0.6rem;
+}
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/4b2df1de157e6b9d69fb2e2b58cd66f3_t01a62006d2a4091d20.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+ 
+
+}
+@keyframes music{
+
+    100%{  transform: rotate(360deg)}
+}

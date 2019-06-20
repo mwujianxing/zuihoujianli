@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- 移动端 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- swiper插件的css -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!-- 自己的css -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="music">
+      <audio src="source/qt.mp3" loop autoplay></audio>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide page1">
+          <!-- 第一页 -->
+          <img class="peoples ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+            swiper-animate-delay="0s" src="images/7a619916fac7cdbf577dc0489053b1e4_true.jpg" alt="">
+
+
+          <h3 class="desk ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s"
+            swiper-animate-delay="0s"> 个人简历</h3>
+
+          <h5 class="yii ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+            swiper-animate-delay="1s">姓名：武建兴</h5>
+
+          <h5 class="shiqu ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+            swiper-animate-delay="2s">电话：15731096286</h5>
+          <h5 class="qingchun ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+            swiper-animate-delay="3s">邮箱：1938780545@qq.com</h5>
+
+
+
+
+        </div>
+        <div class="swiper-slide page2">
+          <!-- 第二页 -->
+          <h3 class="book ani" src="images/book.png" swiper-animate-effect="tada" swiper-animate-duration="1s"
+            swiper-animate-delay="0s"> 基本信息</h3>
+
+
+
+
+
+
+
+          <img class="book1 ani" src="images/bottom1.png" swiper-animate-effect="tada" swiper-animate-duration="1s"
+            swiper-animate-delay="9s" alt=""> alt="">
+
+          <img class="book2 ani" src="images/bottom2.png" swiper-animate-effect="tada" swiper-animate-duration="1s"
+            swiper-animate-delay="10s" alt=""> alt="">
+
+          <img class="book3 ani" src="images/bottom3.png" swiper-animate-effect="tada" swiper-animate-duration="1s"
+            swiper-animate-delay="11s" alt=""> alt="">
+          <!-- 诗歌 -->
+          <div class="textContent">
+            <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="3s">
+              姓名：武建兴 </p>
+            <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="4s">
+              性别;男</p>
+            <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="5s">
+              专业：广告设计与制作</p>
+            <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="6s">
+              学历：大学专科 </p>
+            <p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="7s">
+              毕业院校：保定职业技术学院 </p>
+
+          </div>
+          <!-- 相框 -->
+
+
+
+        </div>
+        <div class="swiper-slide page3">
+          <p class="err ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            求职意向</p>
+          <p class="ert ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            平面设计 视频剪辑 影楼设计 3D建模 电商设计</p>
+          <p class="eee ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            专业技能</p>
+          <p class="een ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            ps ai pr ae 3dmax au </p>
+
+          <p class="eez ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            自我评价</p>
+          <p class="eex ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            本人综合素质佳,能够吃苦耐劳,忠诚稳重坚守诚信正直原则,勇于挑战自我开发自身潜力;做一个主动的人,
+            工作积极热情,为了自己的目标为了完成自己想要的事情拼命投入力量;专业知识扎实，学习成绩优异 ，
+            自学能力强，善于思考，吃苦耐劳。但人非完人，自己在某些方面还是有一定的不足，比如知识，社会经验等;
+            不过我相信这些都是可以通过自己努力的学习来提高的，我也正朝着这个方向努力! </p>
+
+
+          <section class="blackBoard ani">
+            <section class="erweima ani">
+            </section>
+            <section class="tips">
+
+            </section>
+          </section>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-next"></div>
+  </div>
+  </div>
+</body>
+
+</html>
+<script>
+  ~ function () {
+    function computed() {
+      var pcWidth = document.documentElement.clientWidth
+      var des = 750;
+      if (pcWidth > 750) {
+        document.documentElement.style.fontSize = "100px";
+
+        return;
+      }
+      document.documentElement.style.fontSize = pcWidth / des * 100 + "px";
+    }
+    computed()
+
+  }();
+</script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script>
+  window.onload = function () {
+    var mySwiper = new Swiper('.swiper-container', {
+      direction: 'vertical', // 垂直切换选项
+      loop: true, // 循环模式选项
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      on: {
+        init: function () {
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        },
+        slideChangeTransitionEnd: function () {
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        }
+      }
+
+
+    })
+  }
+
+
+</script>
